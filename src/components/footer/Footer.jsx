@@ -14,17 +14,17 @@ const Footer = () => {
       }}
     >
       <Typography variant="body1">
-        © {new Date().getFullYear()} Ваша компания. Все права защищены.
+        © {new Date().getFullYear()} Ийгилик академиясы. Баардык укуктар корголгон.
       </Typography>
       <Box sx={{ mt: 1 }}>
         <Link href="/" underline="hover" sx={{ mx: 2, color: '#fff' }}>
-          Главная
+          Башкы бет
         </Link>
         <Link href="/about" underline="hover" sx={{ mx: 2, color: '#fff' }}>
-          О нас
+          Биз жонундо
         </Link>
         <Link href="/contact" underline="hover" sx={{ mx: 2, color: '#fff' }}>
-          Контакты
+          Байланышуу
         </Link>
       </Box>
     </Box>
